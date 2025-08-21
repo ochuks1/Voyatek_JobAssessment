@@ -9,7 +9,8 @@ Create a new trip by entering details such as title, destination, start/end date
 The design was guided by the provided Figma mockups for assessment
 
 
-Tech Stack
+# Tech Stack
+
 Kotlin Multiplatform Mobile (KMM) - shared logic between Android and iOS
 
 Jetpack Compose - UI framework for Android
@@ -20,11 +21,13 @@ Coroutines - async programming
 
 Material 3 - modern UI components
 
-Platforms
+# Platforms
+
 Android - tested and functional  
+
 iOS - built with KMM in mind, but not yet tested on iPhone.  
+
 Some tweaks may be required for iOS device and environment.  
-The core shared logic is compatible  
 
 # Setup and Run
 
@@ -49,7 +52,7 @@ Run on iOS
 
 Additional setup with Xcode and SwiftUI may be required.
 
-# Future Improvements & Corrections
+# Future Improvements and Corrections
 This project is meant as a functional demo. Corrections can be made to:
 1. Ensure full compatibility with iOS devices (via KMM + SwiftUI integration)
 2. Optimize performance on higher-end Android devices and larger screen sizes
